@@ -51,7 +51,6 @@
             label1.Size = new Size(197, 32);
             label1.TabIndex = 0;
             label1.Text = "Tahmin Aralığı 1 :";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
