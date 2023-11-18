@@ -33,8 +33,6 @@
             txtGuessNumber1 = new TextBox();
             txtGuessNumber2 = new TextBox();
             btnCreate = new Button();
-            label3 = new Label();
-            lblCreatedNumber = new Label();
             label4 = new Label();
             txtGuess = new TextBox();
             btnGuess = new Button();
@@ -93,31 +91,11 @@
             btnCreate.UseVisualStyleBackColor = false;
             btnCreate.Click += btnCreate_Click;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(12, 130);
-            label3.Name = "label3";
-            label3.Size = new Size(153, 32);
-            label3.TabIndex = 5;
-            label3.Text = "Üretilen Sayı:";
-            // 
-            // lblCreatedNumber
-            // 
-            lblCreatedNumber.AutoSize = true;
-            lblCreatedNumber.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCreatedNumber.Location = new Point(165, 130);
-            lblCreatedNumber.Name = "lblCreatedNumber";
-            lblCreatedNumber.Size = new Size(44, 32);
-            lblCreatedNumber.TabIndex = 6;
-            lblCreatedNumber.Text = "---";
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(12, 208);
+            label4.Location = new Point(12, 158);
             label4.Name = "label4";
             label4.Size = new Size(133, 32);
             label4.TabIndex = 7;
@@ -126,7 +104,7 @@
             // txtGuess
             // 
             txtGuess.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtGuess.Location = new Point(151, 208);
+            txtGuess.Location = new Point(151, 158);
             txtGuess.Name = "txtGuess";
             txtGuess.Size = new Size(146, 35);
             txtGuess.TabIndex = 8;
@@ -135,7 +113,7 @@
             // 
             btnGuess.BackColor = Color.Red;
             btnGuess.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnGuess.Location = new Point(312, 209);
+            btnGuess.Location = new Point(312, 159);
             btnGuess.Name = "btnGuess";
             btnGuess.Size = new Size(103, 35);
             btnGuess.TabIndex = 9;
@@ -147,7 +125,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(12, 269);
+            label5.Location = new Point(12, 219);
             label5.Name = "label5";
             label5.Size = new Size(191, 32);
             label5.TabIndex = 10;
@@ -157,7 +135,7 @@
             // 
             lblTryNumber.AutoSize = true;
             lblTryNumber.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTryNumber.Location = new Point(215, 269);
+            lblTryNumber.Location = new Point(215, 219);
             lblTryNumber.Name = "lblTryNumber";
             lblTryNumber.Size = new Size(44, 32);
             lblTryNumber.TabIndex = 11;
@@ -167,7 +145,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(12, 323);
+            label6.Location = new Point(12, 273);
             label6.Name = "label6";
             label6.Size = new Size(85, 32);
             label6.TabIndex = 12;
@@ -177,7 +155,7 @@
             // 
             lblResult.AutoSize = true;
             lblResult.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblResult.Location = new Point(103, 323);
+            lblResult.Location = new Point(103, 273);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(44, 32);
             lblResult.TabIndex = 13;
@@ -195,8 +173,6 @@
             Controls.Add(btnGuess);
             Controls.Add(txtGuess);
             Controls.Add(label4);
-            Controls.Add(lblCreatedNumber);
-            Controls.Add(label3);
             Controls.Add(btnCreate);
             Controls.Add(txtGuessNumber2);
             Controls.Add(txtGuessNumber1);
@@ -215,8 +191,6 @@
         private TextBox txtGuessNumber1;
         private TextBox txtGuessNumber2;
         private Button btnCreate;
-        private Label label3;
-        private Label lblCreatedNumber;
         private Label label4;
         private TextBox txtGuess;
         private Button btnGuess;
